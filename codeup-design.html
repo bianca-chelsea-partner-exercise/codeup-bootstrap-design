@@ -10,11 +10,17 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
         body{
-            background-color: lightgray;
+            background-color: #E6E6E6;
             font-family: 'Abel', sans-serif;
         }
         .special-heading{
             font-family: 'Anton', sans-serif;
+        }
+        #heading-1{
+            font-size: 64px;
+        }
+        #heading-2{
+            font-size: 48px;
         }
         .logo{
             width:50%;
@@ -32,6 +38,34 @@
         ul{
             list-style: none;
         }
+        .first-heading{
+            font-size: 5em;
+        }
+        .rounded-circle{
+            width:50%;
+            height:0;
+            font-size:64px;
+            color:#fff;
+            text-align:center;
+            line-height:0;
+            padding:20% 0;
+            border-radius:50%;
+            font-family: 'Anton', sans-serif;
+            border: #F0F0F0 solid 10px;
+        }
+        #circle-1 {
+            background-color: #E6563B;
+        }
+        #circle-2 {
+            background-color: #DEA03D;
+        }
+        #circle-3 {
+            background-color: #7CB06C;
+        }
+        #circle-4 {
+            background-color: #00ABA9;
+        }
+
     </style>
 </head>
 <body>
@@ -48,27 +82,44 @@
             </div>
         </div>
     </div>
-    <div class="row text-center px-1">
+    <div class="row text-center mx-auto">
         <div class="col-12">
-            <h1>codeup design</h1>
+            <h1 class="first-heading">codeup design</h1>
         </div>
-
+        <div class="col-3">SERVICES</div>
+        <div class="col-3">WORK</div>
+        <div class="col-3">BLOG</div>
+        <div class="col-3">CONTACT</div>
     </div>
-    <div class="row text-center">
-<!--        <div class="col-12 text-center nav-list d-inline-block">-->
-<!--            <ul>-->
-<!--                <li>SERVICES</li>-->
-<!--                <li>WORK</li>-->
-<!--                <li>BLOG</li>-->
-<!--                <li>CONTACT</li>-->
-<!--            </ul>-->
-            <!--        <div class="nav-list px-1">-->
-                        <div class="col-3">SERVICES</div>
-                        <div class="col-3">WORK</div>
-                        <div class="col-3">BLOG</div>
-                        <div class="col-3">CONTACT</div>
+<!--    <div class="row text-center mx-auto">-->
+<!--&lt;!&ndash;        <div class="col-12 text-center nav-list d-inline-block">&ndash;&gt;-->
+<!--&lt;!&ndash;            <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li>SERVICES</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li>WORK</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li>BLOG</li>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li>CONTACT</li>&ndash;&gt;-->
+<!--&lt;!&ndash;            </ul>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <div class="nav-list px-1">&ndash;&gt;-->
+<!--                        <div class="col-2">SERVICES</div>-->
+<!--                        <div class="col-2">WORK</div>-->
+<!--                        <div class="col-2">BLOG</div>-->
+<!--                        <div class="col-2">CONTACT</div>-->
 
+<!--    </div>-->
+    <div class="row text-center mx-auto">
+        <div class="col-12 mt-2">
+        <h1 class="special-heading" id="heading-1">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+        </div>
+        <div class="col-12 mt-2"><h2 class="special-heading" id="heading-2">FROM PARK CITY, UTAH</h2>
+        </div>
     </div>
+    <div class="row text-center justify-content-between">
+        <div class="col-5 rounded-circle" id="circle-1">DESIGN</div>
+        <div class="col-5 rounded-circle" id="circle-2">DEVELOP</div>
+        <div class="col-5 rounded-circle" id="circle-3">SUPPORT</div>
+        <div class="col-5 rounded-circle" id="circle-4">HOST</div>
+    </div>
+
 </div>
 <!-- Main page content -->
 
