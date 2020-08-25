@@ -140,7 +140,86 @@
         .icons-container{
             display: flex;
         }
+        hr{
+            display:none;
+        }
 
+        @media screen and (min-width:768px) { /* ... */
+            .white-bar{
+                position:relative;
+                background-color: white;
+                width: 100vw;
+                height: 50px;
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 40px;
+            }
+            .logo{
+                float:left;
+            }
+            .topNav{
+                float:left;
+                display:flex;
+                align-items: baseline;
+                margin-top: -100px;
+                z-index: 10;
+                justify-content: space-around;
+            }
+            .top-heading{
+                font-size:2.5em;
+                margin-left: 96px;
+            }
+            .navList{
+               padding: 5px;
+                margin-left:100px;
+            }
+            nav>ul>li{
+                display: inline-block;
+                /*margin-right: 10px;*/
+                padding: 11.5px;
+                font-size: 1.25em;
+            }
+            .special-heading{
+                font-size:3em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+            }
+            #smaller-heading{
+                font-size: 2.3em;
+            }
+            .circle-container{
+                display: flex;
+                /*flex-direction: column;*/
+                /*flex-wrap: wrap;*/
+                justify-content: center;
+                /*width: 100%;*/
+                /*overflow: auto;*/
+                margin-bottom: 8em;
+            }
+            .break{
+                display:none;
+            }
+            .rounded-circle{
+                font-size:32px;
+                width: 130px;
+                height: 130px;
+                color:#fff;
+                text-align:center;
+                line-height: 32px;
+                padding:7% 0;
+                border-radius:50%;
+                font-family: 'Anton', sans-serif;
+                border: #FFFFFF solid 8px;
+                margin: 10px;
+            }
+            hr{
+                display:block;
+                border-top: #a2a0a0 solid 2px;
+            }
+            .circle-container{
+                margin-bottom: 1em;
+            }
+        }
 
         </style>
 </head>
@@ -175,19 +254,24 @@
         <div class="rounded-circle circle-3">SUPPORT</div>
         <div class="rounded-circle circle-4">HOST</div>
     </section>
+    <hr>
+
+
+
+
+    <div class="bottom-container">
+        <div class="row">
+            <div class="col-md-8" id="left-side">
     <section>
         <div>
             <h3 class="mid-heading">SELECTED WORK</h3>
         </div>
     </section>
+<!--    first featured project-->
+
     <section>
         <div class="image-container">
             <img src="img/apple-ipad.jpg" class="apple">
-<!--            <h3 class="last-heading">FEATURED PROJECT</h3>-->
-<!--            <div class="icons">D</div>-->
-<!--            <div class="icons">D</div>-->
-<!--            <div class="icons">S</div>-->
-<!--            <div class="icons">H</div>-->
         </div>
     </section>
     <section>
@@ -201,10 +285,63 @@
             </div>
         </div>
     </section>
+<!--    second featured project-->
+    <section>
+        <div class="image-container">
+            <img src="img/apple-ipad.jpg" class="apple">
+        </div>
+    </section>
+    <section>
+        <div class="last-content">
+            <h3 class="last-heading">FEATURED PROJECT</h3>
+            <div class="icons-container">
+                <div class="icons circle-1">D</div>
+                <div class="icons circle-2">D</div>
+                <div class="icons circle-3">S</div>
+                <div class="icons circle-4">H</div>
+            </div>
+        </div>
+    </section>
+<!--    third featured project-->
+    <section>
+    <div class="image-container">
+        <img src="img/apple-ipad.jpg" class="apple">
+    </div>
+</section>
+    <section>
+        <div class="last-content">
+            <h3 class="last-heading">FEATURED PROJECT</h3>
+            <div class="icons-container">
+                <div class="icons circle-1">D</div>
+                <div class="icons circle-2">D</div>
+                <div class="icons circle-3">S</div>
+                <div class="icons circle-4">H</div>
+            </div>
+        </div>
+    </section>
+<!--    last featured project-->
+    <section>
+    <div class="image-container">
+        <img src="img/apple-ipad.jpg" class="apple">
+    </div>
+</section>
+    <section>
+        <div class="last-content">
+            <h3 class="last-heading">FEATURED PROJECT</h3>
+            <div class="icons-container">
+                <div class="icons circle-1">D</div>
+                <div class="icons circle-2">D</div>
+                <div class="icons circle-3">S</div>
+                <div class="icons circle-4">H</div>
+            </div>
+        </div>
+    </section>
+
+            </div>
+        </div>
+
+    </div>
 </main>
-
-
-
 
 
 
