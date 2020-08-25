@@ -98,6 +98,47 @@
             flex-basis: 100%;
             height: 10px;
         }
+        .mid-heading{
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .image-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+        }
+        .apple{
+            /*align-self: center;*/
+            border: #E6E6E6 solid 2px;
+            width:75%;
+        }
+        .last-heading{
+            align-self: flex-start;
+            font-size: 1em;
+        }
+        .last-content{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 2em;
+        }
+        .icons {
+            width: 30px;
+            height:30px;
+            font-size:16px;
+            color:#000;
+            text-align:center;
+            line-height:1.2;
+            padding: 1% 0;
+            border-radius:50%;
+            font-family: 'Anton', sans-serif;
+            margin: 2px;
+        }
+        .image-container{
+
+        }
 
 
         </style>
@@ -135,20 +176,29 @@
     </section>
     <section>
         <div>
-            <h3>SELECTED WORK</h3>
+            <h3 class="mid-heading">SELECTED WORK</h3>
         </div>
     </section>
     <section>
-        <div>
-            <img src="img/apple-ipad.jpg">
+        <div class="image-container">
+            <img src="img/apple-ipad.jpg" class="apple">
+<!--            <h3 class="last-heading">FEATURED PROJECT</h3>-->
+<!--            <div class="icons">D</div>-->
+<!--            <div class="icons">D</div>-->
+<!--            <div class="icons">S</div>-->
+<!--            <div class="icons">H</div>-->
         </div>
     </section>
     <section>
-        <h3>FEATURED PROJECT</h3>
-        <div>D</div>
-        <div>D</div>
-        <div>S</div>
-        <div>H</div>
+        <div class="last-content">
+           <h3 class="last-heading">FEATURED PROJECT</h3>
+            <div class="icons-container">
+           <div class="icons circle-1">D</div>
+           <div class="icons circle-2">D</div>
+           <div class="icons circle-3">S</div>
+           <div class="icons circle-4">H</div>
+            </div>
+        </div>
     </section>
 </main>
 
