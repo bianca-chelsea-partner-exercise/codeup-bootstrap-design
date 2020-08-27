@@ -93,6 +93,8 @@ let comingSoonMovies = [
     }
 ];
 
+let allMovies = nowPlayingMovies.concat(comingSoonMovies);
+
 let movies = function () {
     let allMovies = nowPlayingMovies.concat(comingSoonMovies);
     return allMovies;
