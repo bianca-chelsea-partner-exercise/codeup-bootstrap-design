@@ -95,9 +95,16 @@ let comingSoonMovies = [
 
 let allMovies = nowPlayingMovies.concat(comingSoonMovies);
 
+// let movies = function () {
+//     let allMovies = nowPlayingMovies.concat(comingSoonMovies);
+//     return allMovies.toString();
+// };
 let movies = function () {
-    let allMovies = nowPlayingMovies.concat(comingSoonMovies);
-    return allMovies;
-};
+    for (let i = 0; i < allMovies.length; i++){
+        console.log("a title " + allMovies[i].title);
+    }
+}
+
 
 console.log(movies());
+
